@@ -25,14 +25,13 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import CartContextProvider from "./context/CartContext";
 import { Toaster } from 'react-hot-toast';
 import Checkout from "./Components/Checkout/Checkout";
-import OrderContextProvider from "./context/orderContext";
+import OrderContextProvider from "./context/OrderContext";
 import AllOrders from "./Components/AllOrders/AllOrders";
 import WishlistContextProvider from "./context/WishlistContext";
 import Wishlist from './Components/Wishlist/Wishlist';
 import ForgetPassword from './Components/ForgetPassword/ForgetPassword';
 import VerifyPass from './Components/VerifyPass/VerifyPass';
 import ResetPass from './Components/ResetPass/ResetPass';
-
 
 let query = new QueryClient();
 

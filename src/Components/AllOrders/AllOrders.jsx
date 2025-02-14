@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import style from "./AllOrders.module.css";
-import { orderContext } from "../../context/orderContext";
+import { orderContext } from "../../context/OrderContext";
 import { CartContext } from "../../context/CartContext";
 import { Card } from "flowbite-react";
 

@@ -3,7 +3,7 @@ import style from "./Checkout.module.css";
 import { useFormik } from "formik";
 import RedAlert from "../RedAlert/RedAlert";
 import { Link, useNavigate } from "react-router-dom";
-import { orderContext } from "../../context/orderContext";
+import { orderContext } from "../../context/OrderContext";
 import { CartContext } from "../../context/CartContext";
 
 
